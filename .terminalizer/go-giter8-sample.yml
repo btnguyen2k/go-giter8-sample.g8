@@ -1,0 +1,159 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/thanhn/workspace
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 202
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 58
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  #- delay: 730
+  #  content: "\e]0;thanhn@MININT-2OC0NSF: /mnt/c/Users/thanhn/workspace/temp\a\e[01;32mthanhn@MININT-2OC0NSF\e[00m:\e[01;34m/mnt/c/Users/thanhn/workspace/temp\e[00m$ "
+  - delay: 922
+    content: g8 new btnguyen2k/go-giter8-sample.g8
+  - delay: 683
+    content: "\r\n"
+  - delay: 5
+    content: "Cloning into 'go-giter8-sample.g8'...\r\n"
+  - delay: 1492
+    content: "remote: Enumerating objects: 27, done.\e[K\r\nremote: Counting objects:   3% (1/27)\e[K\rremote: Counting objects:   7% (2/27)\e[K\rremote: Counting objects:  11% (3/27)\e[K\rremote: Counting objects:  14% (4/27)\e[K\rremote: Counting objects:  18% (5/27)\e[K\rremote: Counting objects:  22% (6/27)\e[K\rremote: Counting objects:  25% (7/27)\e[K\rremote: Counting objects:  29% (8/27)\e[K\rremote: Counting objects:  33% (9/27)\e[K\rremote: Counting objects:  37% (10/27)\e[K\rremote: Counting objects:  40% (11/27)\e[K\rremote: Counting objects:  44% (12/27)\e[K\rremote: Counting objects:  48% (13/27)\e[K\rremote: Counting objects:  51% (14/27)\e[K\rremote: Counting objects:  55% (15/27)\e[K\rremote: Counting objects:  59% (16/27)\e[K\rremote: Counting objects:  62% (17/27)\e[K\rremote: Counting objects:  66% (18/27)\e[K\rremote: Counting objects:  70% (19/27)\e[K\rremote: Counting objects:  74% (20/27)\e[K\rremote: Counting objects:  77% (21/27)\e[K\rremote: Counting objects:  81% (22/27)\e[K\rremote: Counting objects:  85% (23/27)\e[K\rremote: Counting objects:  88% (24/27)\e[K\rremote: Counting objects:  92% (25/27)\e[K\rremote: Counting objects:  96% (26/27)\e[K\rremote: Counting objects: 100% (27/27)\e[K\r"
+  - delay: 149
+    content: "remote: Counting objects: 100% (27/27), done.\e[K\r\nremote: Compressing objects:   5% (1/18)\e[K\rremote: Compressing objects:  11% (2/18)\e[K\rremote: Compressing objects:  16% (3/18)\e[K\rremote: Compressing objects:  22% (4/18)\e[K\rremote: Compressing objects:  27% (5/18)\e[K\rremote: Compressing objects:  33% (6/18)\e[K\rremote: Compressing objects:  38% (7/18)\e[K\rremote: Compressing objects:  44% (8/18)\e[K\rremote: Compressing objects:  50% (9/18)\e[K\rremote: Compressing objects:  55% (10/18)\e[K\rremote: Compressing objects:  61% (11/18)\e[K\rremote: Compressing objects:  66% (12/18)\e[K\rremote: Compressing objects:  72% (13/18)\e[K\rremote: Compressing objects:  77% (14/18)\e[K\rremote: Compressing objects:  83% (15/18)\e[K\rremote: Compressing objects:  88% (16/18)\e[K\rremote: Compressing objects:  94% (17/18)\e[K\rremote: Compressing objects: 100% (18/18)\e[K\rremote: Compressing objects: 100% (18/18), done.\e[K\r\nremote: Total 27 (delta 4), reused 25 (delta 2), pack-reused 0\e[K\r\n"
+  - delay: 5
+    content: "Unpacking objects:   3% (1/27)   \rUnpacking objects:   7% (2/27)   \rUnpacking objects:  11% (3/27)   \rUnpacking objects:  14% (4/27)   \rUnpacking objects:  18% (5/27)   \rUnpacking objects:  22% (6/27)   \rUnpacking objects:  25% (7/27)   \rUnpacking objects:  29% (8/27)   \rUnpacking objects:  33% (9/27)   \rUnpacking objects:  37% (10/27)   \rUnpacking objects:  40% (11/27)   \rUnpacking objects:  44% (12/27)   \rUnpacking objects:  48% (13/27)   \rUnpacking objects:  51% (14/27)   \rUnpacking objects:  55% (15/27)   \rUnpacking objects:  59% (16/27)   \rUnpacking objects:  62% (17/27)   \rUnpacking objects:  66% (18/27)   \rUnpacking objects:  70% (19/27)   \rUnpacking objects:  74% (20/27)   \rUnpacking objects:  77% (21/27)   \rUnpacking objects:  81% (22/27)   \rUnpacking objects:  85% (23/27)   \rUnpacking objects:  88% (24/27)   \rUnpacking objects:  92% (25/27)   \rUnpacking objects:  96% (26/27)   \rUnpacking objects: 100% (27/27)   \rUnpacking objects: 100% (27/27), done.\r\n"
+  - delay: 33
+    content: "This template demonstrates go-giter8.\r\nname [go-giter8-sample]: "
+  - delay: 1434
+    content: "\r\nsampleMixed [mIxEd Of lOwEr aNd UpPeR cAsEs]: "
+  - delay: 1420
+    content: "\r\nsampleFirstUpper [FirSt LettEr Is UppEr]: "
+  - delay: 661
+    content: "\r\nsampleFirstLower [fIRsT lETTeR iS lOWeR]: "
+  - delay: 534
+    content: "\r\nsampleWords [This-As.A_string With,Several:Non;Alphabet'Characters[In]The{Middle}]: "
+  - delay: 602
+    content: "\r\nsampleJavaPackage [com.github.btnguyen2k.go_giter8]: "
+  - delay: 632
+    content: "\r\nCopying scaffolds...\r\n\tcopying /home/thanhn/.go-giter8/btnguyen2k/go-giter8-sample.g8/src/main/scaffolds -> go-giter8-sample/.g8\r\n"
+  - delay: 9
+    content: "\tcopying /home/thanhn/.go-giter8/btnguyen2k/go-giter8-sample.g8/src/main/scaffolds/module1 -> go-giter8-sample/.g8/module1\r\n"
+  - delay: 12
+    content: "\tcopying /home/thanhn/.go-giter8/btnguyen2k/go-giter8-sample.g8/src/main/scaffolds/module1/component1 -> go-giter8-sample/.g8/module1/component1\r\n"
+  - delay: 7
+    content: "\tcopying /home/thanhn/.go-giter8/btnguyen2k/go-giter8-sample.g8/src/main/scaffolds/module1/component1/index.html -> go-giter8-sample/.g8/module1/component1/index.html\r\n"
+  - delay: 15
+    content: "\tcopying /home/thanhn/.go-giter8/btnguyen2k/go-giter8-sample.g8/src/main/scaffolds/module1/default.properties -> go-giter8-sample/.g8/module1/default.properties\r\n"
+  - delay: 16
+    content: "\tcopying /home/thanhn/.go-giter8/btnguyen2k/go-giter8-sample.g8/src/main/scaffolds/module2 -> go-giter8-sample/.g8/module2\r\n"
+  - delay: 5
+    content: "\tcopying /home/thanhn/.go-giter8/btnguyen2k/go-giter8-sample.g8/src/main/scaffolds/module2/default.properties -> go-giter8-sample/.g8/module2/default.properties\r\n"
+  - delay: 12
+    content: "Generating project...\r\n\tgenerating go-giter8-sample/index.html\r\n"
+  #- delay: 14
+  #  content: "\e]0;thanhn@MININT-2OC0NSF: /mnt/c/Users/thanhn/workspace/temp\a\e[01;32mthanhn@MININT-2OC0NSF\e[00m:\e[01;34m/mnt/c/Users/thanhn/workspace/temp\e[00m$ "
+  - delay: 3064
+    content: "logout\r\n"

@@ -7,6 +7,7 @@ Run the following command to generate project:
 ```
 $ g8 new btnguyen2k/go-giter8-sample.g8
 ```
+![go-giter8-sample-min.gif](go-giter8-sample-min.gif)
 
 ## Generate scaffold
 
@@ -21,7 +22,10 @@ Example:
 ```
 $ g8 scaffold module1
 ```
+![go-giter8-sample-scaffold-module1.gif](go-giter8-sample-scaffold-module1.gif)
+
 
 ```
 $ g8 scaffold module2
 ```
+![go-giter8-sample-scaffold-module2.gif](go-giter8-sample-scaffold-module2.gif)
